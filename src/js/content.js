@@ -5,18 +5,17 @@ console.log('HappyNews Extension Loaded');
     // console.log('message', message);
     var state = message.state;
 
-    var $content = $('#content');
-    var $divs = $content.find('h1, h2, h3, p, li');
+    var $divs = $('h1, h2, h3, h4, h5, h6, p, li');
 
     var toggleDiv = function(div, turnOff) {
       var $div = $(div);
       if (turnOff) {
         $div.css({
-          'opacity': '0.05'
+          'opacity': '0.04'
         })
       } else {
         $div.css({
-          'transition': 'opacity 230ms',
+          'transition': 'opacity 200ms',
           'opacity': ''
         })
       }

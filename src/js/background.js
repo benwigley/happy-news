@@ -32,7 +32,7 @@ var setIconState = function(state) {
     iconObject['path'] = inactiveImgPath;
   }
   chrome.browserAction.setIcon(iconObject, function() {
-    log('icon set');
+    // log('icon set');
   });
 };
 

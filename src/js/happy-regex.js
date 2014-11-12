@@ -30,8 +30,11 @@
     'massacre',
     'bombs',
     'slaughter',
+    'manslaughter',
     'collision',
-    'injuries'
+    'injuries',
+    'drowned',
+    'drowning'
   ];
 
   var regexString = '';
